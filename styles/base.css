@@ -1,38 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-    display: grid;
-    grid-template-columns: 1fr;
+    /* display: flex;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 100vh; /* Viewport height, makes sure the body takes the full height of the screen */
-    margin: 0; /* Remove default margin */
+    margin: 0;
 }
 header{
     background-color:blue ;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
     color: white
     
 }
-#profile{
-    width: 150px;
+
+header,
+main,
+footer{
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-ul{
+#profile{
+    width: 150px;
+    margin-right: 50px;
+}
+
+nav ul{
     list-style-type: none;
 }
 
+nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
 h2{
     border-bottom: 1px solid #000; /* Add a 1px solid line underneath the h2 */
+
     
 }
 
 .card{
     border: 2px solid #000;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    
 }
 #section-activities{
     text-align: left;
@@ -44,28 +68,41 @@ h2{
 }
 nav{
     background-color: black;
-    width: 407px;
+    max-width: 850px;
+    margin: 0 auto;
 
 }
+
 li{
     margin-bottom: 20px;
 }
 main{
     display: grid;
     grid-template-columns: 1fr;
-    width: 407px
+    max-width: 800px;
+    margin-bottom: 20px;
 }
 
 footer{
     background-color: blue;
-    width: 407px;
+    max-width: 800px;
+    text-align: center;
     
 }
+/* #sections{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
+} */
 h3{
     background-color: blue;
     margin-top: 0;
-    color: white
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style-type: none;
 }
 
 p{
@@ -74,4 +111,20 @@ p{
 
 .info{
     color: black;
+    text-align: center;
+
+}
+
+
+@media (min-width: 640px) {
+	nav ul {
+		display: flex;
+	}
+	nav ul li {
+		flex: 1 1 100%;
+	}
+    #sections{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
