@@ -1,0 +1,19 @@
+@media screen and (min-width: 1200px) {
+   main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   } 
+   #hicks-card{
+    grid-column: 1/3;
+   }
+}
+
+@media screen and (min-width: 1800px) {
+    main{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+    } 
+    #hicks-card{
+        grid-column: 3/4;
+    }
+ }
