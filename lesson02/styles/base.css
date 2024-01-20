@@ -4,6 +4,9 @@
     box-sizing: border-box;
 }
 p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 20pt;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -12,6 +15,9 @@ header{
     background-color: navy;
 }
 .principle{
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
     background-color: navy;
     color: white;
     text-align: center;
