@@ -36,16 +36,17 @@ footer{
     margin-right: 50px;
 }
 
-nav ul{
+.navigation ul{
     list-style-type: none;
 }
-
-nav a{
+.navigation a{
     display: block;
     color: white;
     text-align: center;
     text-decoration: none;
 }
+
+
 h2{
     border-bottom: 1px solid #000; /* Add a 1px solid line underneath the h2 */
 
@@ -66,10 +67,14 @@ h2{
     text-decoration: none;
     color: white;
 }
-nav{
+.main-list-item:hover{
+    color: yellow
+}
+.navigation{
     background-color: black;
-    max-width: 850px;
     margin: 0 auto;
+    display: none;
+    max-width: 850px;
 
 }
 
@@ -81,6 +86,11 @@ main{
     grid-template-columns: 1fr;
     max-width: 800px;
     margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+
 }
 
 footer{
@@ -115,16 +125,26 @@ p{
 
 }
 
-
-@media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
-    #sections{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0,0,0,.3);
+	padding: 3px 7px 6px;
+	background-color: #eee;
+	color: #000;
+ 	position: absolute;
+	right: .5rem;
+	top: 1.5rem;
 }
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❌";
+}
+
+.open {
+	display: block;
+}
+
