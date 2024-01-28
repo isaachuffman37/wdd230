@@ -1,0 +1,77 @@
+/* colors: 013a63, 427aa1, ebf2fa, 679436, b7e4c7 */
+
+
+/* .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  // <uniquifier>: Use a uniquifier for the class name
+  // <weight>: Use a value from 400 to 900
+  
+  .cinzel-<uniquifier> {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+body{
+    text-align: center;
+    background-color: #ebf2fa;
+}
+
+h1, h2{
+    color: #013a63;
+    font-family: "Cinzel", serif;
+    background-color: #b7e4c7;
+}
+header{
+    background-color: #b7e4c7;
+}
+h1 {
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+#color1{
+    background-color: #013a63;
+    color: white
+}
+
+#color2{
+    background-color: #427aa1;
+    color: white;
+}
+
+#color3{
+    background-color: #ebf2fa;
+    border: solid 1px;
+}
+#color4{
+    background-color: #679436;
+    color: white
+}
+
+#color5{
+    background-color: #b7e4c7;
+}
+
+#Cinzel{
+    font-family: "Cinzel", serif;
+}
+
+
+
+
+
+
+
