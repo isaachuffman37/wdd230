@@ -46,7 +46,7 @@ footer{
 .herolabel {
 	position: absolute;
 	top: 20%;
-	left: 50%;
+	left: 40%;
 	background: radial-gradient(#fff, #4D5B97);
 	border: 1px solid rgba(0,0,0,.75);
 	padding: 1.5rem;
@@ -58,7 +58,7 @@ footer{
 	margin: 0;
 	padding: .25rem;
 	font-weight: 700;
-	font-size: 1.5rem;
+	font-size: 1 rem;
 	font-family:"Great Vibes", serif;
     white-space: nowrap;
 }
