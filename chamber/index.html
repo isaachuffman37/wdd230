@@ -35,8 +35,11 @@
     <button id="menu"></button>
     <main class = "card-container">
         <section class = "card" id = "hero" >
-            <img id = "hero-img" src="images/tetons-optimized.jpg" alt="Tetons hero image">
-            <h2 class = "call"> <a href="#">Join Our Chamber!</a></h2>
+                <picture class = "hero">
+                  <source srcset="images/conference-small.webp" media="(max-width: 500px)">
+                  <source srcset="images/conference-medium.webp" media="(max-width: 1000px)">
+                  <img src="images/conference-large.webp" alt="Conference" width="1500" height="1000">
+                </picture>
         </section>
         <section class = "card" id = "events-card">
             <h2 class = "card-title">Events</h2>
@@ -45,7 +48,10 @@
         </section>
         <section class = "card" id = "weather-card">
             <h2 class = "card-title">Weather</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maxime veritatis neque voluptates, et nisi optio at nam? Consequuntur quas, expedita corporis pariatur sed ipsam laboriosam. Dolorum id ut repudiandae doloremque!</p>
+            <p> Temperature: <span id = "temp">0</span></p>
+            <p>Wind Speed: <span id = "wind-speed">0</span></p>
+            <p>Wind Chill Factor: <span id = "wind-chill"></span></p>
+
         </section>
         <section class = "card" id = "spotlights-card">
             <h2 class = "card-title">Company Spotlights</h2>
@@ -62,6 +68,7 @@
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
+    <script src="scripts/windchill.js"></script>
     
 </body>
 </html>
