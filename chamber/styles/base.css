@@ -136,6 +136,34 @@ footer{
     color: white;
 }
 
+.discover-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.dis-section {
+    border: 1px solid black;
+    margin: 1rem;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+section img {
+    width: 100%; 
+    height: auto;
+}
+
+
+#dis-images {
+    grid-column: 2/3;
+    grid-row: 1/4;
+}
+
+.dis-section-title {
+    text-align: center;
+}
+
 
 
 
