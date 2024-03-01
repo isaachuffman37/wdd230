@@ -80,9 +80,7 @@ input[type=range] {
     margin-right: 6px;
 }
 
-.wf1 input[type = "button"],
-.wf1 input[type="email"] 
-{
+.wf1 input[type = "button"] {
 	display: inline;
 }
 
