@@ -34,27 +34,29 @@
     </header>
     <button id="menu"></button>
     <main class = "form-container">
-        <form method = "get" action="thankyou.html" class = "wf1">
+        <div>
             <h2 class = "benefits-title">Membership Application</h2>
-            <label>First Name*<input type="text" id="firstName" name="fname" required></label>
-            <label>Last Name* <input type="text" id="lastName" name="lname" required></label>
-            <label>Title/Position* <input type="text" id="title" name="title" required pattern="[a-zA-Z\s\-]{7,}"></label>
-            <label>Email* <input type="email" id="email" name="email" required placeholder="example@example.com"></label>
-            <label>Mobile Phone* <input type="tel" id="phone" name="phone" required></label>
-            <label>Business/Organization Name* <input type="text" id="businessName" name="businessName" required></label>
-            <label>Membership Level 
-                <select id="membershipLevel" name="membershipLevel">
-                    <option value="">Select Option &#9662;</option>
-                    <option value="nonProfit">NP Membership (Non-Profit)</option>
-                    <option value="bronze">Bronze Membership</option>
-                    <option value="silver">Silver Membership</option>
-                    <option value="gold">Gold Membership</option>
-                </select>
-            </label>
-            <label>Business/Organization Description* <textarea id="businessDescription" name="businessDescription" rows="4" cols="50" required></textarea></label>
-            <input type="hidden" id="submissionDate" name="submissionDate">
-            <button type="submit">Become a Member!</button>
-        </form>
+            <form method= "get" action="thankyou.html" class = "wf1">
+                <label>First Name*<input type="text" id="firstName" name="fname" required></label>
+                <label>Last Name* <input type="text" id="lastName" name="lname" required></label>
+                <label>Title/Position* <input type="text" id="title" name="title" required pattern="[a-zA-Z\s\-]{7,}"></label>
+                <label>Email* <input type="email" id="email" name="email" required placeholder="example@example.com"></label>
+                <label>Mobile Phone* <input type="tel" id="phone" name="phone" required></label>
+                <label>Business/Organization Name* <input type="text" id="businessName" name="businessName" required></label>
+                <label>Membership Level 
+                    <select id="membershipLevel" name="membershipLevel">
+                        <option value="">Select Option &#9662;</option>
+                        <option value="nonProfit">NP Membership (Non-Profit)</option>
+                        <option value="bronze">Bronze Membership</option>
+                        <option value="silver">Silver Membership</option>
+                        <option value="gold">Gold Membership</option>
+                    </select>
+                </label>
+                <label>Business/Organization Description* <textarea id="businessDescription" name="businessDescription" rows="4" cols="50" required></textarea></label>
+                <input type="hidden" id="submissionDate" name="submissionDate">
+                <button type="submit">Become a Member!</button>
+            </form>
+        </div>
 
         <div class = "membership-info">
                 <h2 class = "benefits-title">Membership Benefits</h2>
