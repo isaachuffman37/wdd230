@@ -236,4 +236,12 @@ select{
     font-size: 20pt;
 }
 
+.thank-you{
+    text-align: center;
+}
+
+.thank-you-main{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
