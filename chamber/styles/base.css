@@ -164,7 +164,76 @@ section img {
     text-align: center;
 }
 
+form {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
 
+.membership-benefits {
+    flex: 1;
+}
 
+label {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    width: 97%;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16pt;
+    padding: 10px;
+}
+
+input{
+    height: 45px;
+    border-radius: 10px;
+}
+
+select{
+    height: 45px;
+}
+
+.membership-title{
+    text-align: center;
+}
+
+.membership-info{
+    display:grid
+}
+
+.benefits-title{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 26pt;
+
+}
+
+.memberships{
+    text-align: center;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: white ;
+    
+}
+
+.memberships h3{
+    font-size: 20pt;
+}
+
+.memberships li{
+    font-size: 14pt;
+}
+
+.gold-title{
+    font-size: 20pt;
+}
 
 
