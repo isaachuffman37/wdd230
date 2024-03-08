@@ -1,0 +1,23 @@
+{
+    "family-name": "Huffman",
+    "date-moved-in": "2005-10-20",
+    "family-num": 3,
+    "visited-by-bishopric": true,
+    "members": [
+        {
+            "name": "Brian",
+            "gender": "Male",
+            "birthdate": "2000-10-20"
+        },
+        {
+            "name": "Sandra",
+            "gender": "Female",
+            "birthdate": "2000-10-21"
+        },
+        {
+            "name": "Shandra",
+            "gender": "Female",
+            "birthdate": "2000-10-22"
+        }
+    ]
+}

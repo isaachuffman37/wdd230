@@ -1,0 +1,121 @@
+{
+    "lessons": [
+        {
+            "lesson": "01",
+            "links": [
+                {
+                    "url": "lesson01/holygrail.html",
+                    "title": "Holy Grail"
+                }
+            ]
+        },
+        {
+            "lesson": "02",
+            "links": [
+                {
+                    "url": "lesson02/design.html",
+                    "title": "Web Design Activity"
+                },
+                {
+                    "url": "lesson02/media-query.html",
+                    "title": "Media Queries"
+                },
+                {
+                    "url": "lesson02/design-principles.html",
+                    "title": "Design Principles Document"
+                }
+            ]
+        },
+        {
+            "lesson": "03",
+            "links": [
+                {
+                    "url": "lesson03/images/tasks.jpg",
+                    "title": "W3 Schools Tasks Screenshot"
+                },
+                {
+                    "url": "https://codepen.io/Isaac-Huffman/pen/vYPJXdx",
+                    "title": "CodePen Activity"
+                },
+                {
+                    "url": "https://codepen.io/Isaac-Huffman/pen/xxBLEBV",
+                    "title": "Hamburger Menu"
+                },
+                {
+                    "url": "lesson03/chamber-site-plan.html",
+                    "title": "Hamburger Menu"
+                }
+            ]
+        },
+        {
+            "lesson": "04",
+            "links": [
+                {
+                    "url": "https://codepen.io/Isaac-Huffman/pen/GRexjvz",
+                    "title": "Pseudo Classes"
+                }
+            ]
+        },
+        {
+            "lesson": "05",
+            "links": [
+                {
+                    "url": "lesson05/bom.html",
+                    "title": "DOM Interaction"
+                }
+            ]
+        },
+        {
+            "lesson": "06",
+            "links": [
+                {
+                    "url": "lesson03/images/landscape.webp",
+                    "title": "Optimized Image"
+                },
+                {
+                    "url": "lesson06/responsive-images.html",
+                    "title": "Responsive Images"
+                }
+            ]
+        },
+        {
+            "lesson": "07",
+            "links": [
+                {
+                    "url": "lesson07/lazyload.html",
+                    "title": "Lazy Load"
+                },
+                {
+                    "url": "lesson07API/bom.html",
+                    "title": "Local Storage BOM"
+                }
+            ]
+        },
+        {
+            "lesson": "08",
+            "links": [
+                {
+                    "url": "lesson08/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "Form-start/index.html",
+                    "title": "Form Tutorial"
+                }
+            ]
+        },
+        {
+            "lesson": "09",
+            "links": [
+                {
+                    "url": "lesson09/prophets.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "lesson09/new-ward-members.json",
+                    "title": "Table Build"
+                }
+            ]
+        }
+    ]
+}

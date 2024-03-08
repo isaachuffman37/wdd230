@@ -1,0 +1,22 @@
+
+h1{
+    text-align: center;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+section {
+    border: 1px solid dimgray;
+    border-radius: 5px;
+    background-color: lightslategray;
+    margin: 5px;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
