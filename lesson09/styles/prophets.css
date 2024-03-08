@@ -1,22 +1,31 @@
-
-h1{
-    text-align: center;
-}
-
 #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    border: 1px solid black;
+    box-shadow: 0 0 30px #666;
+}
+
+h1 {
+    text-align: center;
 }
 
 section {
-    border: 1px solid dimgray;
+    border: 1px solid black;
     border-radius: 5px;
-    background-color: lightslategray;
-    margin: 5px;
-    padding: 7px;
+    padding: 8px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 10px;
+    background-color: gray;
+}
+
+img {
+    width: auto;
+    max-width: 325px;
+    box-shadow: 0 0 25px #666;
+    height: 200px;
+    border: 1px solid #333;
 }
 
 
