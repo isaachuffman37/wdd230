@@ -109,11 +109,11 @@
             "links": [
                 {
                     "url": "lesson09/prophets.html",
-                    "title": "Table Build"
+                    "title": "Prophets JSON"
                 },
                 {
                     "url": "lesson09/new-ward-members.json",
-                    "title": "Table Build"
+                    "title": "Ward JSON"
                 }
             ]
         }
