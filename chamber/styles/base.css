@@ -245,3 +245,17 @@ select{
     grid-template-columns: 1fr;
 }
 
+
+.directory-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.member{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 4px 4px #666;
+}
+

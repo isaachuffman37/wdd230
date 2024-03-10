@@ -1,7 +1,7 @@
 {
     "companies": [
       {
-        "name": "Company 1",
+        "name": "XYZ Innovations",
         "address": "123 Main St, City, Country",
         "phone": "(123)456-789",
         "website": "http://www.company1.com",
@@ -9,7 +9,7 @@
         "membership_level": "NP Membership"
       },
       {
-        "name": "Company 2",
+        "name": "Quantum Solutions Ltd",
         "address": "456 Oak St, City, Country",
         "phone": "(987)654-321",
         "website": "http://www.company2.com",
@@ -17,42 +17,42 @@
         "membership_level": "NP Membership"
       },
       {
-        "name": "Company 3",
+        "name": "Visionary Dynamics Inc",
         "address": "789 Pine St, City, Country",
         "phone": "(111)223-344",
-        "website": "http://www.company3.com",
+        "website": "http://www.visionarydynamicsinc.com",
         "image": "placeholder_image3.jpg",
         "membership_level": "NP Membership"
       },
       {
-        "name": "Company 4",
+        "name": "Nova Technologies Group",
         "address": "321 Elm St, City, Country",
         "phone": "(444)555-666",
-        "website": "http://www.company4.com",
+        "website": "http://www.novatechnologiesgroup.com",
         "image": "placeholder_image4.jpg",
         "membership_level": "Bronze Membership"
       },
       {
-        "name": "Company 5",
+        "name": "Nova Technologies Group",
         "address": "654 Birch St, City, Country",
         "phone": "(777)888-999",
-        "website": "http://www.company5.com",
+        "website": "http://www.novatechnologiesgroup.com",
         "image": "placeholder_image5.jpg",
         "membership_level": "Silver Membership"
       },
       {
-        "name": "Company 6",
+        "name": "Apex Enterprises Ltd.",
         "address": "987 Cedar St, City, Country",
         "phone": "(222)333-444",
-        "website": "http://www.company6.com",
+        "website": "http://www.apexenterprisesltd..com",
         "image": "placeholder_image6.jpg",
         "membership_level": "Silver Membership"
       },
       {
-        "name": "Company 7",
+        "name": "Synergize Solutions Inc.",
         "address": "234 Walnut St, City, Country",
         "phone": "(555)666-777",
-        "website": "http://www.company7.com",
+        "website": "http://www.synergizesolutionsinc..com",
         "image": "placeholder_image7.jpg",
         "membership_level": "Gold Membership"
       }
