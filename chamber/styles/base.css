@@ -246,6 +246,20 @@ select{
 }
 
 
+
+
+
+
+.display-menu{
+    text-align: center;
+}
+
+
+.directory-main{
+    display: block;
+}
+
+
 .directory-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
