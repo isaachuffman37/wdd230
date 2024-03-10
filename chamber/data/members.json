@@ -4,7 +4,7 @@
         "name": "XYZ Innovations",
         "address": "123 Main St, City, Country",
         "phone": "(123)456-789",
-        "website": "http://www.company1.com",
+        "website": "http://www.XYZinnovations.com",
         "image": "placeholder_image1.jpg",
         "membership_level": "NP Membership"
       },
@@ -12,7 +12,7 @@
         "name": "Quantum Solutions Ltd",
         "address": "456 Oak St, City, Country",
         "phone": "(987)654-321",
-        "website": "http://www.company2.com",
+        "website": "http://www.quantumsolutionsltd.com",
         "image": "placeholder_image2.jpg",
         "membership_level": "NP Membership"
       },
