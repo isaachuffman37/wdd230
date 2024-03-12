@@ -273,3 +273,7 @@ select{
     box-shadow: 4px 4px 4px #666;
 }
 
+.member img{
+    height: 200px;
+}
+

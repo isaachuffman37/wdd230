@@ -24,11 +24,11 @@ function displayMembers (members) {
         membershipLevel.textContent = `${member.membership_level}`
 
 
-        //companyImage.setAttribute('src', `${member.image}`);
+        companyImage.setAttribute('src', `${member.image}`);
         sectionElement.setAttribute('class', "member");
         website.setAttribute('href', `${member.website}`);
 
-        //sectionElement.appendChild(companyImage);
+        sectionElement.appendChild(companyImage);
         sectionElement.appendChild(memberName);
         sectionElement.appendChild(address);
         sectionElement.appendChild(phone);
