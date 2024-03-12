@@ -5,7 +5,7 @@
         "address": "123 Main St, City, Country",
         "phone": "(123)456-789",
         "website": "http://www.XYZinnovations.com",
-        "image": "placeholder_image1.jpg",
+        "image": "images/logo1.jpg",
         "membership_level": "NP Membership"
       },
       {
@@ -13,7 +13,7 @@
         "address": "456 Oak St, City, Country",
         "phone": "(987)654-321",
         "website": "http://www.quantumsolutionsltd.com",
-        "image": "placeholder_image2.jpg",
+        "image": "images/logo2.jpg",
         "membership_level": "NP Membership"
       },
       {
@@ -21,7 +21,7 @@
         "address": "789 Pine St, City, Country",
         "phone": "(111)223-344",
         "website": "http://www.visionarydynamicsinc.com",
-        "image": "placeholder_image3.jpg",
+        "image": "images/logo3.jpg",
         "membership_level": "NP Membership"
       },
       {
@@ -29,7 +29,7 @@
         "address": "321 Elm St, City, Country",
         "phone": "(444)555-666",
         "website": "http://www.novatechnologiesgroup.com",
-        "image": "placeholder_image4.jpg",
+        "image": "images/logo4.jpg",
         "membership_level": "Bronze Membership"
       },
       {
@@ -37,7 +37,7 @@
         "address": "654 Birch St, City, Country",
         "phone": "(777)888-999",
         "website": "http://www.novatechnologiesgroup.com",
-        "image": "placeholder_image5.jpg",
+        "image": "images/logo5.jpg",
         "membership_level": "Silver Membership"
       },
       {
@@ -45,7 +45,7 @@
         "address": "987 Cedar St, City, Country",
         "phone": "(222)333-444",
         "website": "http://www.apexenterprisesltd..com",
-        "image": "placeholder_image6.jpg",
+        "image": "images/logo6.jpg",
         "membership_level": "Silver Membership"
       },
       {
@@ -53,7 +53,7 @@
         "address": "234 Walnut St, City, Country",
         "phone": "(555)666-777",
         "website": "http://www.synergizesolutionsinc..com",
-        "image": "placeholder_image7.jpg",
+        "image": "images/logo7.jpg",
         "membership_level": "Gold Membership"
       }
     ]
