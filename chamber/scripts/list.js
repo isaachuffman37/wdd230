@@ -1,5 +1,5 @@
-const gridbutton = document.querySelector("#grid");
-const listbutton = document.querySelector("#list");
+const gridbutton = document.querySelector("#grid-button");
+const listbutton = document.querySelector("#list-button");
 const display = document.querySelector(".directory-grid");
 
 // The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
