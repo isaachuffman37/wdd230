@@ -249,23 +249,28 @@ select{
 
 
 
+.directory-main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
 
 .display-menu{
     text-align: center;
-}
-
-
-.directory-main{
     display: block;
 }
 
 
-.directory-container {
+.directory-grid{
+    display: block;
+}
+
+
+.directory-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
 }
 
-.member{
+.member-grid{
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -273,7 +278,36 @@ select{
     box-shadow: 4px 4px 4px #666;
 }
 
-.member img{
+.member-grid img{
     height: 200px;
 }
 
+.directory-list {
+	display: flex;
+	flex-direction: column;
+    border: none;
+}
+
+.directory-list section {
+	display: grid;
+	grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+	margin: 0;
+	padding: 0.25rem;
+}
+
+.directory-list section > * {
+	margin: 0 1rem;
+}
+
+.directory-list section img {
+	display: none; /* smaller viewports only */
+}
+
+.directory-list section h3 {
+	font-size: 1rem;
+	font-family: Roboto, Helvetica, sans-serif;
+}
+
+.directory-list section:nth-child(even) {
+	background-color: #bed;
+}

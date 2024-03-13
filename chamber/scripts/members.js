@@ -1,5 +1,5 @@
 const membersURL = "https://isaachuffman37.github.io/wdd230/chamber/data/members.json";
-const mainGridContainer = document.querySelector(".directory-container");
+const mainGridContainer = document.querySelector(".directory-grid");
 async function getMembers() {
     const response = await fetch(membersURL);
     const data = await response.json();
@@ -25,7 +25,7 @@ function displayMembers (members) {
 
 
         companyImage.setAttribute('src', `${member.image}`);
-        sectionElement.setAttribute('class', "member");
+        sectionElement.setAttribute('class', "member-grid");
         website.setAttribute('href', `${member.website}`);
 
         sectionElement.appendChild(companyImage);
