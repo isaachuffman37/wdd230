@@ -110,6 +110,12 @@ h2{
 
 }
 
+#weather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 li{
     margin-bottom: 20px;
 }
