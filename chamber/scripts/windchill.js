@@ -1,4 +1,4 @@
-const temperatureFahrenheit = parseInt(document.getElementById("temp").innerText);
+const temperatureFahrenheit = parseInt(document.getElementById("current-temp").innerText);
 const windSpeedMph = parseInt(document.getElementById("wind-speed").innerText);
 
 const windChill = calculateWindChill(temperatureFahrenheit, windSpeedMph);

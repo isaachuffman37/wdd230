@@ -64,6 +64,17 @@ p {
     font-family: "Roboto", sans-serif;
 }
 
+.card{
+    text-align: center;
+}
+
+.weather-icon {
+    width: 60px;
+}
+figcaption{
+    margin-top: -20px;
+    font-size: 20pt;
+}
 
 #menu {
 	font-size: 1.5rem;
