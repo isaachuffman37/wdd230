@@ -4,7 +4,7 @@ const windSpeedMph = parseInt(document.getElementById("wind-speed").innerText);
 const windChill = calculateWindChill(temperatureFahrenheit, windSpeedMph);
 
 // Update the content of the HTML element with id "wind-chill"
-document.getElementById("wind-chill").innerHTML = `Wind Chill Factor: ${windChill} °F`;
+document.getElementById("wind-chill").innerHTML = `${windChill} °F`;
 
 
 function calculateWindChill(temperatureFahrenheit, windSpeedMph) {

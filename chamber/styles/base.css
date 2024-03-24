@@ -68,12 +68,22 @@ p {
     text-align: center;
 }
 
+.card h3{
+    margin-top: 10px;
+    font-size: 18pt;
+}
+
 .weather-icon {
     width: 60px;
 }
 figcaption{
-    margin-top: -20px;
     font-size: 20pt;
+}
+
+.three-day-forecast {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 15px;
 }
 
 #menu {
@@ -120,6 +130,25 @@ section {
     width: 100%;
     height: auto;
 }
+
+.banner-section{
+    position: relative;
+    grid-column: 1/3;
+    border: none;
+    font-size: 30pt;
+    background-color: white;
+    font-weight: 600;
+    color: #679436;
+    text-align: center;
+    padding-right: 40px;
+}
+.clearButton {
+    position: absolute;
+    font-size: 6pt;
+    top: 0px;
+    right: 5px;
+}
+
 .call{
     position: absolute;
     top: 40%;

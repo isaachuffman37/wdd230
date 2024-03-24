@@ -41,6 +41,7 @@
                   <img src="images/conference-large.webp" alt="Conference" width="1500" height="1000">
                 </picture>
         </section>
+        <section class = "banner-section"></section>
         <section class = "card" id = "events-card">
             <h2 class = "card-title">Events</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur labore, vitae, facere earum suscipit dignissimos distinctio pariatur perspiciatis ratione veniam? Amet labore odio eius eum voluptate ullam cum veniam.</p>
@@ -48,14 +49,34 @@
         </section>
         <section class = "card" id = "weather-card">
             <h2 class = "card-title">Weather</h2>
-            <figure>
-                <img class="weather-icon" src="" alt="">
-                <figcaption></figcaption>
-            </figure>
-            <p>Temp:<span id="current-temp"></span></p>
-            <p>Wind Speed: <span id = "wind-speed">0</span></p>
-            <p>Wind Chill Factor: <span id = "wind-chill"></span></p>
-
+            <div>
+                <h3>current:</h3>
+                <figure>
+                    <img class="weather-icon" src="" alt="">
+                    <p><span id="current-temp"></span></p>
+                    <figcaption></figcaption>
+                </figure>
+                <p>Wind Speed: <span id = "wind-speed">0</span></p>
+                <p>Wind Chill Factor: <span id = "wind-chill"></span></p>
+            </div>
+            <h3>3-Day Forecast:</h3>
+            <div class = "three-day-forecast">
+                <figure>
+                    <img class="weather-icon" id = "icon1" src="" alt="">
+                    <p><span id="day1-temp"></span></p>
+                    <figcaption class = "desc-1"></figcaption>
+                </figure>
+                <figure>
+                    <img class="weather-icon" id = "icon2" src="" alt="">
+                    <p><span id="day2-temp"></span></p>
+                    <figcaption class="desc-2"></figcaption>
+                </figure>
+                <figure>
+                    <img class="weather-icon" id = "icon3" src="" alt="">
+                    <p><span id="day3-temp"></span></p>
+                    <figcaption class="desc-3"></figcaption>
+                </figure>
+            </div>
         </section>
         <section class = "card" id = "spotlights-card">
             <h2 class = "card-title">Company Spotlights</h2>
@@ -69,11 +90,12 @@
         <p id="lastModified"></p>
     </footer>
 
+    <script src="scripts/weather.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/menu.js"></script>
     <script src="scripts/windchill.js"></script>
-    <script src="scripts/weather.js"></script>
+    <script src="scripts/banner.js"></script>
     
 </body>
 </html>
