@@ -1,6 +1,6 @@
 function populateDivOnSpecificDays() {
     var currentDate = new Date();
-    var dayOfWeek = 1;
+    var dayOfWeek = currentDate.getDay();
     var allowedDays = [1, 2, 3]; // Monday, Tuesday, Wednesday
     if (allowedDays.includes(dayOfWeek)) {
         const sectionElement = document.querySelector(".banner-section");
