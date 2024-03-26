@@ -22,6 +22,10 @@
         grid-column: 1/3;
     }
 
+    .cta p{
+        font-size: 30pt;
+      }
+
     #spotlights-card {
         grid-column: 1/3;
     }
