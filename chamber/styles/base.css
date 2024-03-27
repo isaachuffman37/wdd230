@@ -22,7 +22,6 @@ body{
 
 header {
     background-color: #013a63;
-    border-bottom: 2px solid black;
 }
 
 .head {
@@ -146,6 +145,15 @@ section {
     
 }
 
+#spotlights-card{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+.spotlight-company{
+    max-width: 400px;
+}
+
 .card-title{
     font-family: "Cinzel", serif;
     font-size: 2rem;
@@ -225,7 +233,7 @@ footer{
 
 .discover-grid-container{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1.5fr 2fr;
 }
 
 .dis-section {
@@ -242,13 +250,79 @@ section img {
 }
 
 
-#dis-images {
+.dis-images-section {
     grid-column: 2/3;
     grid-row: 1/5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    
+}
+
+.dis-images-section img{
+    max-height: 500px;
+    max-width: 90%;
+}
+
+.dis-images-section img:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transform: scale(1.1);
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Adjust the value to increase or decrease the spacing */
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.image:hover {
+  transform: scale(1.1); /* Scale up the image by 10% on hover */
+}
+
+.dis-section-event{
+    display: grid;
+    height: 100%;
+    margin-top: 50px;
 }
 
 .dis-section-title {
     text-align: center;
+    font-size: 30pt;
+}
+
+.event-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 0; /* Remove default margin */
+}
+
+.event-list li {
+    margin-bottom: 10px; /* Add spacing between list items */
+    text-align: center;
+    font-size: 16pt;
+}
+
+.day-of-week{
+    text-align: center;
+    padding: 1rem;
+    font-size: 20pt;
+}
+
+.img-container {
+    display: flex;
+    padding: 1rem;
+}
+
+.img-container img{
+    margin: 0 auto;
+    transition: transform 0.3s ease;
 }
 
 form {
