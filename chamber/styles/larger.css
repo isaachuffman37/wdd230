@@ -29,9 +29,32 @@
     #spotlights-card {
         grid-column: 1/3;
     }
-    
+    .dis-images-section img:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        transform: scale(1.1);
+    }
 
+    .discover-grid-container{
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+    }
 
+    .dis-images-section {
+        grid-column: 2/3;
+        grid-row: 1/5;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border: none;
+        
+    }
 
+    footer {
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .form-container{
+        grid-template-columns: 1fr 1fr;
+    }
     
 }

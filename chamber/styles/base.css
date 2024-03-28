@@ -136,6 +136,11 @@ main{
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.form-container{
+    display: grid;
+    grid-template-columns: 1fr;
+}
 section {
     border: 1px solid black;
     margin: 1rem;
@@ -226,16 +231,20 @@ section > p {
 
 footer{
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr;
     text-align: center;
     background-color: #013a63;
     color: white;
 }
 
+.footer-dates{
+    margin-top: 2rem;
+}
+
 
 .discover-grid-container{
     display: grid;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1fr;
 }
 
 .dis-section {
@@ -253,8 +262,8 @@ section img {
 
 
 .dis-images-section {
-    grid-column: 2/3;
-    grid-row: 1/5;
+    /* grid-column: 2/3;
+    grid-row: 1/5; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -265,11 +274,6 @@ section img {
 .dis-images-section img{
     max-height: 500px;
     max-width: 90%;
-}
-
-.dis-images-section img:hover {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-    transform: scale(1.1);
 }
 
 .image-container {
@@ -303,7 +307,6 @@ section img {
 
 .dis-section-event{
     display: grid;
-    height: 100%;
     margin-top: 50px;
 }
 
