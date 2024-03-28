@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jackson Chamber of Commerce Site</title>
+    <title>Jackson Chamber of Commerce Home Page</title>
     <meta name="author" content="Isaac Huffman">
     <meta property="og:title" content="WDD230 Assignment Host">
     <meta property="og:type" content="website">
@@ -44,14 +44,39 @@
                 <img src="images/tetons-optimized.webp" alt="Conference" width="1500" height="1000">
               </picture>
               <div class="cta">
-                <p>Join our <a href="join.html">chamber</a>!</p>
+                <p class = "dark-text">Join our <a href="join.html">chamber</a>!</p>
               </div>
             </div>
           </section>
         <section class = "banner-section"></section>
         <section class = "card" id = "events-card">
             <h2 class = "card-title">Events</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, aspernatur labore, vitae, facere earum suscipit dignissimos distinctio pariatur perspiciatis ratione veniam? Amet labore odio eius eum voluptate ullam cum veniam.</p>
+            <div class="dis-section-event-main">
+                <div>
+                    <h3 class="day-of-week">Monday</h3>
+                    <ul class="event-list">
+                        <li>Wild West Chili Cook-off</li>
+                        <li>Jackson Artisan Craft Fair</li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="day-of-week">Wednesday</h3>
+                    <ul class="event-list">
+                        <li>Cowboy Poetry Slam</li>
+                        <li>Winter Wonderland Ice Sculpture Contest</li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h3 class="day-of-week">Friday</h3>
+                    <ul class="event-list">
+                        <li>Jackson Rodeo Roundup</li>
+                        <li>Spring Equinox Yoga Retreat</li>
+                    </ul>
+                </div>
+
+            </div>
 
         </section>
         <section class = "card" id = "weather-card">
@@ -59,7 +84,7 @@
             <div>
                 <h3>current:</h3>
                 <figure>
-                    <img class="weather-icon" src="" alt="">
+                    <div class = "main-icon-div"></div>
                     <p><span id="current-temp"></span></p>
                     <figcaption></figcaption>
                 </figure>
@@ -69,17 +94,17 @@
             <h3>3-Day Forecast:</h3>
             <div class = "three-day-forecast">
                 <figure>
-                    <img class="weather-icon" id = "icon1" src="" alt="">
+                    <div class = "icon1-div"></div>
                     <p><span id="day1-temp"></span></p>
                     <figcaption class = "desc-1"></figcaption>
                 </figure>
                 <figure>
-                    <img class="weather-icon" id = "icon2" src="" alt="">
+                    <div class = "icon2-div"></div>
                     <p><span id="day2-temp"></span></p>
                     <figcaption class="desc-2"></figcaption>
                 </figure>
                 <figure>
-                    <img class="weather-icon" id = "icon3" src="" alt="">
+                    <div class = "icon3-div"></div>
                     <p><span id="day3-temp"></span></p>
                     <figcaption class="desc-3"></figcaption>
                 </figure>
@@ -87,7 +112,7 @@
         </section>
         <section class = "card" id = "spotlights-card">
             <h2 class = "card-title">Company Spotlight</h2>
-            <div class = "spotlight-company"></div>
+            <div class = "spotlight-company dark-text"></div>
         </section>
 
 

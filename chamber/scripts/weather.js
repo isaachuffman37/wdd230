@@ -13,6 +13,10 @@ const temp3 = document.querySelector('#day3-temp');
 const description1 = document.querySelector('.desc-1');
 const description2 = document.querySelector('.desc-2');
 const description3 = document.querySelector('.desc-3');
+const mainIconDiv = document.querySelector('.main-icon-div');
+const icon1Div = document.querySelector('.icon1-div');
+const icon2Div = document.querySelector('.icon2-div');
+const icon3Div = document.querySelector('.icon3-div');
 
 //6,
 async function apiFetch() {
@@ -42,8 +46,12 @@ function displayResults(data) {
     currentTemp.innerHTML = `${data.main.temp}&deg;F`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
     let desc = data.weather[0].description;
-    weatherIcon.setAttribute('src', iconsrc);
-    weatherIcon.setAttribute('alt', desc);
+    let mainIcon = document.createElement('img');
+    mainIcon.setAttribute('src', iconsrc);
+    mainIcon.setAttribute('alt', desc);
+    mainIcon.classList.add("weather-icon")
+    mainIconDiv.appendChild(mainIcon)
+
     captionDesc.textContent = `${desc}`;
     windSpeed.textContent = `${data.wind.speed}`
 }
@@ -58,12 +66,21 @@ function displayForcast(data2) {
     const icon1src = `https://openweathermap.org/img/w/${day1.weather[0].icon}.png`;
     const icon2src = `https://openweathermap.org/img/w/${day2.weather[0].icon}.png`;
     const icon3src = `https://openweathermap.org/img/w/${day3.weather[0].icon}.png`;
-    weatherIcon1.setAttribute('src', icon1src);
-    weatherIcon1.setAttribute('alt', desc1);
-    weatherIcon2.setAttribute('src', icon2src);
-    weatherIcon2.setAttribute('alt', desc2);
-    weatherIcon3.setAttribute('src', icon3src);
-    weatherIcon3.setAttribute('alt', desc3);
+    let icon1 = document.createElement('img');
+    let icon2 = document.createElement('img');
+    let icon3 = document.createElement('img');
+    icon1.setAttribute('src', icon1src);
+    icon1.setAttribute('alt', desc1);
+    icon1.classList.add("weather-icon");
+    icon2.setAttribute('src', icon2src);
+    icon2.setAttribute('alt', desc2);
+    icon2.classList.add("weather-icon")
+    icon3.setAttribute('src', icon3src);
+    icon3.setAttribute('alt', desc3);
+    icon3.classList.add("weather-icon");
+    icon1Div.appendChild(icon1);
+    icon2Div.appendChild(icon2);
+    icon3Div.appendChild(icon3);
     temp1.innerHTML = `${day1.main.temp}&deg;F`; 
     temp2.innerHTML = `${day2.main.temp}&deg;F`;
     temp3.innerHTML = `${day3.main.temp}&deg;F`;

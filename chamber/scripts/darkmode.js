@@ -3,6 +3,7 @@ const main = document.querySelector("main");
 const footer = document.querySelector("footer");
 const header = document.querySelector("header");
 const navigationLinks = document.querySelectorAll("nav a");
+const cta = document.querySelectorAll(".dark-text");
 
 
 modeButton.addEventListener("click", () => {
@@ -16,6 +17,9 @@ modeButton.addEventListener("click", () => {
         navigationLinks.forEach(link => {
             link.style.background = "#000"
             link.style.color = "#fff"
+        });
+        cta.forEach(dark => {
+            dark.style.color = "#000";
         });
 		modeButton.textContent = "Light";
 	} else {

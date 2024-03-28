@@ -276,6 +276,19 @@ section img {
   gap: 20px; /* Adjust the value to increase or decrease the spacing */
 }
 
+.attractions-list {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    margin-top: -40px;
+}
+
+.attractions-item {
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 20pt;
+}
 .image {
   max-width: 100%;
   height: auto;
@@ -317,7 +330,14 @@ section img {
 
 .img-container {
     display: flex;
+    flex-direction: column;
     padding: 1rem;
+}
+
+.img-container p{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
 }
 
 .img-container img{
