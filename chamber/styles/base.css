@@ -60,12 +60,12 @@ header {
 }
 
 .navigation a:hover {
-    color:#679436;
+    color:#536f33;
     text-decoration: underline;
 }
 
 nav ul li.active a {
-    color: #679436;
+    color: #536f33;
     font-weight: bolder; 
   }
 ul {
@@ -151,7 +151,9 @@ section {
     border: none;
 }
 .spotlight-company{
-    max-width: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
 }
 
 .card-title{
