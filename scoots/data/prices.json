@@ -1,36 +1,42 @@
 {
     "rentals": {
         "metro": {
+            "name" : "Honda Metro Scooter",
             "reserve-half" : "$20",
             "reserve-full" : "$30",
             "walk-half" : "$25",
             "walk-full" : "$35"
         },
         "dio": {
+            "name" : "Honda Dio Scooter",
             "reserve-half" : "$30",
             "reserve-full" : "$40",
             "walk-half" : "$35",
             "walk-full" : "$45"
         },
         "pcx": {
+            "name" : "Honda PCX150 Scooter",
             "reserve-half" : "$40",
             "reserve-full" : "$50",
             "walk-half" : "$45",
             "walk-full" : "$55"
         },
         "pioneer": {
+            "name" : "Honda Pioneer ATV",
             "reserve-half" : "$50",
             "reserve-full" : "$70",
             "walk-half" : "$60",
             "walk-full" : "$80"
         },
         "four-door": {
+            "name" : "Jeep Wrangler - 4 door with a/c",
             "reserve-half" : "$70",
             "reserve-full" : "$100",
             "walk-half" : "$85",
             "walk-full" : "$125"
         },
         "two-door": {
+            "name" : "Jeep Wrangler - 2 door",
             "reserve-half" : "$60",
             "reserve-full" : "$85",
             "walk-half" : "$70",
