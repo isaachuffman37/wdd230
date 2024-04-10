@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Recreational Vehicle Rental</title>
+    <meta name="author" content="Isaac Huffman">
+    <meta name="description" content="Scoots website is where all lovers of motorsports can go to rent quality recreational vehicles for a good price. With many rentals and plans to choose from, you can find a vehicle to fit any of your needs!">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <h1>Scoots</h1>
+        <nav>
+            <ul>
+                <li><a class = "page-link" href="index.html">Home</a></li>
+                <li><a class = "page-link" href="#">Rentals</a></li>
+                <li><a class = "page-link" href="#">Reservations</a></li>
+                <li><a class = "page-link" href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="max-temp"></div>
+        <section class = "hero-img">
+            <div class="hero-container">
+                <picture class="hero">
+                  <source srcset="images/hero-img-small.webp" media="(max-width: 500px)">
+                  <source srcset="images/hero-img-medium.webp" media="(max-width: 1000px)">
+                  <img src="images/hero-img.webp" alt="Island Beauty" width="1500" height="1000" loading="lazy">
+                </picture>
+                <div class="cta">
+                  <p class = "dark-text">Rent our <a href="">vehicles</a>!</p>
+                </div>
+            </div>
+        </section>
+        <section class="rental-types">
+            <div class="scooter-summary">
+                <h2>Scooters</h2>
+                <img src="images/scooter.webp" alt="Scooters">
+                <p>scooter description</p>
+            </div>
+            <div class="atv-summary">
+                <h2>ATVs</h2>
+                <img src="images/atv.webp" alt="ATV">
+                <p>ATV description</p>
+            </div>
+            <div class="jeep-summary">
+                <h2>Jeeps</h2>
+                <img src="images/jeep.webp" alt="Jeeps">
+                <p>Jeeps description</p>
+            </div>
+        </section>
+        <section calss ="weather">
+            <div class="current-weather">
+                <h3>Today:</h3>
+                <figure>
+                    <div class = "main-icon-div"></div>
+                    <p><span class="current-temp"></span></p>
+                    <figcaption></figcaption>
+                </figure>
+            </div>
+            <div class="forecast-weather">
+                <h3>Tomorrow:</h3>
+                <figure>
+                    <div class = "forecast-icon"></div>
+                    <p><span class="forecast-temp"></span></p>
+                    <figcaption class = "forecast-desc"></figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <div class="social-media">
+            <h2>Our Media</h2>
+          <div>
+            <h3>Facebook</h3>
+            <p><a href="#">scoot.cozumel99@facebook.com</a></p>
+          </div>
+          <div>
+            <h3>Instagram</h3>
+            <p><a href="#">@scoot.cozumel99</a></p>
+          </div> 
+
+        </div>
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
