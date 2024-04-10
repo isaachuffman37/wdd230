@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Recreational Vehicle Rental</title>
+    <meta name="author" content="Isaac Huffman">
+    <meta name="description" content="Scoots website is where all lovers of motorsports can go to rent quality recreational vehicles for a good price. With many rentals and plans to choose from, you can find a vehicle to fit any of your needs!">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <h1>Scoots</h1>
+        <nav>
+            <ul>
+                <li><a class = "page-link" href="index.html">Home</a></li>
+                <li><a class = "page-link" href="rentals.html">Rentals</a></li>
+                <li><a class = "page-link" href="reservation.html">Reservations</a></li>
+                <li><a class = "page-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="reservation-main">
+        <section class="reservation-form">
+            <form action="thanks.html" method="get">
+                <fieldset>
+                    <legend>User Information</legend>
+                    <label class="res-label">First Name* <input type="text" name="fname" placeholder="Your first name" required></label><br>
+                    <label class="res-label">Last Name* <input type="text" name="lname" placeholder="Your last name" required></label><br>
+                    <label class="res-label">Email* <input type="email" name="email" placeholder="Your email address" pattern="[a-zA-Z0-9_.\-]" required> <br></label>
+                    <label class="res-label">Home Country* <input type="text" name="country" placeholder="Your home country" required><br></label>
+                    <label class="res-label">Cruise Line(if applicable) <input type="text" name="cruise" placeholder="Your cruise line"><br></label>
+                </fieldset>
+                <fieldset>
+                    <legend>Reservation Info</legend>
+                    <label class="res-label"> Start Date <input type="date" id="start-date" name="start-date" required></label>
+                    <label class="res-label"> End Date <input type="date" id="end-date" name="end-date" required><br></label>
+                    <label>Vehicle* <br>
+                        <select name="vehicle-type" required>
+                            <option value="">Please Select &#9662;</option>
+                            <option value="metro">Honda Metro Scooter</option>
+                            <option value="dio">Honda Dio Scooter</option>
+                            <option value="pcx">Honda PCX150 Scooter</option>
+                            <option value="pioneer">Honda Pioneer ATV</option>
+                            <option value="four-door">Jeep Wrangler (4-door)</option>
+                            <option value="two-door">Jeep Wrangler (2-door)</option>
+                        </select>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Additional Drop Off Info</legend>
+                    <label for="drop-comment">Drop Off Location</label><br>
+                    <textarea id="drop-comment" name="drop-comment" rows="4" placeholder="ex. Royal Plaza Hotel"></textarea><br><br>
+                </fieldset>
+                <input class= "submit-button" type="submit" value = "Reserve Vehicle">
+            </form>
+        </section>
+        <section class="agreement-info">
+            <h2>Services and Agreements</h2>
+            <ul class="agreement">
+                <li><p>A $50 security deposit is required to confirm reservations.</p></li>
+                <li><p>A valid drivers license is required in hand at the time of rental.</p></li>
+                <li><p>No one under the age of 12 years of age are allowed to ride on the scooters.</p></li>
+                <li><p>Fuel charge is not included.</p></li>
+                <li><p>Unlimited mileage.</p></li>
+                <li><p>Liability insurance is included.</p></li>
+                <li><p>Damage insurance is available for purchase.</p></li>
+                <li><p>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p></li>
+                <li><p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p></li>
+                <li><p>Rentals may be returned to either physical location.</p></li>
+            </ul>
+        </section>
+        
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>

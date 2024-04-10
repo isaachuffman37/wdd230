@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots Recreational Vehicle Rental</title>
+    <meta name="author" content="Isaac Huffman">
+    <meta name="description" content="Scoots website is where all lovers of motorsports can go to rent quality recreational vehicles for a good price. With many rentals and plans to choose from, you can find a vehicle to fit any of your needs!">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <header>
+        <h1>Scoots</h1>
+        <nav>
+            <ul>
+                <li><a class = "page-link" href="index.html">Home</a></li>
+                <li><a class = "page-link" href="rentals.html">Rentals</a></li>
+                <li><a class = "page-link" href="reservation.html">Reservations</a></li>
+                <li><a class = "page-link" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="contact-main">
+        <section class = "contact-info-section">
+            <h2>Contact Info</h2>
+            <div>
+                <p>Email: scoots.cozumel99@example.com</p>
+            </div>
+            <div>
+                <p>Phone: (555)-555-1823</p>
+            </div>
+        </section>
+
+        <section class = "location">
+            <h2>Locations</h2>
+            <div>
+                <h3>Central Cozumel</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8086.813077639801!2d-86.95652557002727!3d20.51125127279416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1712742517719!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <h3>Puerta Maya Cruise Terminal</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13805.295251531168!2d-86.9798434015031!3d20.477619879149024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f4e57491a71c81d%3A0x6933058e58e0ee3d!2sPuerta%20Maya%20Cruise%20Ship%20Maritime%20Terminal!5e0!3m2!1sen!2sus!4v1712742788010!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+
+        <section>
+            <h2>Leave a Comment</h2>
+            <form method="get" action="thanks.html">
+                <fieldset>
+                    <label class="contact-label"> First Name*: <input type="text" id="first-name" name="fname" placeholder="Your first name" required><br><br> </label>
+                    <label class="contact-label"> Last Name*: <input type="text" id="last-name" name="lname" placeholder="Your last name" required><br><br></label>
+                    <label class="contact-label"> Email*: <input type="email" id="email" name="email" placeholder="Your email" required><br><br></label>
+                    <label for="comment">Comment:</label><br>
+                    <textarea id="comment" name="comment" rows="4" placeholder="ex. You guys are awesome!"></textarea><br><br>
+                    <input type="submit" value="Send Comment">
+                </fieldset>
+            </form>
+        </section>
+
+
+
+    </main>
+    <footer>
+
+    </footer>
+    <script src="scripts/weather.js"></script>
+</body>
+</html>
