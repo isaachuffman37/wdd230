@@ -3,38 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Scoots Recreational Vehicle Rental</title>
+    <title>Scoots Recreational Vehicle Reservation Page</title>
     <meta name="author" content="Isaac Huffman">
-    <meta name="description" content="Scoots website is where all lovers of motorsports can go to rent quality recreational vehicles for a good price. With many rentals and plans to choose from, you can find a vehicle to fit any of your needs!">
+    <meta name="description" content="Scoots reservation page is where customers can go to submit a reservation so that the vehicle of their dreams can be theirs on their adventure!">
     <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/normalize.css">
 </head>
 <body>
     <header>
-        <h1>Scoots</h1>
+        <h1>~Scoots~</h1>
         <nav>
-            <ul>
+            <ul class="nav-ul">
                 <li><a class = "page-link" href="index.html">Home</a></li>
                 <li><a class = "page-link" href="rentals.html">Rentals</a></li>
                 <li><a class = "page-link" href="reservation.html">Reservations</a></li>
                 <li><a class = "page-link" href="contact.html">Contact</a></li>
+                <li><a class = "page-link" href="sources.html">Sources</a></li>
             </ul>
         </nav>
     </header>
     <main class="reservation-main">
+        <section class="agreement-info">
+            <h2>Services and Agreements</h2>
+            <ol class="agreement">
+                <li><p>A $50 security deposit is required to confirm reservations.</p></li>
+                <li><p>A valid drivers license is required in hand at the time of rental.</p></li>
+                <li><p>No one under the age of 12 years of age are allowed to ride on the scooters.</p></li>
+                <li><p>Fuel charge is not included.</p></li>
+                <li><p>Unlimited mileage.</p></li>
+                <li><p>Liability insurance is included.</p></li>
+                <li><p>Damage insurance is available for purchase.</p></li>
+                <li><p>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p></li>
+                <li><p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p></li>
+                <li><p>Rentals may be returned to either physical location.</p></li>
+            </ol>
+        </section>
         <section class="reservation-form">
-            <form action="thanks.html" method="get">
+            <form action="thanks.html" method="get" class="res-form">
                 <fieldset>
                     <legend>User Information</legend>
                     <label class="res-label">First Name* <input type="text" name="fname" placeholder="Your first name" required></label><br>
                     <label class="res-label">Last Name* <input type="text" name="lname" placeholder="Your last name" required></label><br>
-                    <label class="res-label">Email* <input type="email" name="email" placeholder="Your email address" pattern="[a-zA-Z0-9_.\-]" required> <br></label>
+                    <label class="res-label">Email* <input type="email" name="email" placeholder="Your email address" pattern="[a-zA-Z0-9_.\-]+@gmail.com" required> <br></label>
+                    <label class="res-label">Phone Number* <input type="tel" name="phone" placeholder="Your phone number" pattern="[0-9]*" required> <br></label>
                     <label class="res-label">Home Country* <input type="text" name="country" placeholder="Your home country" required><br></label>
-                    <label class="res-label">Cruise Line(if applicable) <input type="text" name="cruise" placeholder="Your cruise line"><br></label>
+                    <label class="res-label">Cruise Line (if applicable) <input type="text" name="cruise" placeholder="Your cruise line"><br></label>
                 </fieldset>
                 <fieldset>
                     <legend>Reservation Info</legend>
-                    <label class="res-label"> Start Date <input type="date" id="start-date" name="start-date" required></label>
-                    <label class="res-label"> End Date <input type="date" id="end-date" name="end-date" required><br></label>
+                    <label class="res-label"> Start Date* <input type="date" id="start-date" name="start-date" required></label>
+                    <label class="res-label"> End Date* <input type="date" id="end-date" name="end-date" required><br></label>
                     <label>Vehicle* <br>
                         <select name="vehicle-type" required>
                             <option value="">Please Select &#9662;</option>
@@ -55,25 +74,28 @@
                 <input class= "submit-button" type="submit" value = "Reserve Vehicle">
             </form>
         </section>
-        <section class="agreement-info">
-            <h2>Services and Agreements</h2>
-            <ul class="agreement">
-                <li><p>A $50 security deposit is required to confirm reservations.</p></li>
-                <li><p>A valid drivers license is required in hand at the time of rental.</p></li>
-                <li><p>No one under the age of 12 years of age are allowed to ride on the scooters.</p></li>
-                <li><p>Fuel charge is not included.</p></li>
-                <li><p>Unlimited mileage.</p></li>
-                <li><p>Liability insurance is included.</p></li>
-                <li><p>Damage insurance is available for purchase.</p></li>
-                <li><p>Free delivery to Cozumel hotels or Airbnbs for 2+ day rentals.</p></li>
-                <li><p>Payment via Google Pay, Apple Pay, cash, credit card, debit card, or venmo.</p></li>
-                <li><p>Rentals may be returned to either physical location.</p></li>
-            </ul>
-        </section>
         
     </main>
     <footer>
-
+        <h2>Contact Us</h2>
+        <div class="media-container">
+          <div>
+            <h3>Facebook</h3>
+            <p><a href="#">scoot.cozumel99@facebook.com</a></p>
+          </div>
+          <div>
+            <h3>Instagram</h3>
+            <p><a href="#">@scoot.cozumel99</a></p>
+          </div> 
+          <div>
+            <h3>Email</h3>
+            <p>scoots.cozumel99@example.com</p>
+          </div> 
+          <div>
+            <h3>Phone</h3>
+            <p>(555)-555-1823</p>
+          </div> 
+        </div>
     </footer>
     <script src="scripts/weather.js"></script>
 </body>

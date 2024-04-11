@@ -73,11 +73,11 @@ function displayForcast(data2) {
 
 function displayMaxTemp(data){
     const sectionElement = document.querySelector(".max-temp");
-    sectionElement.innerHTML = `Max Temp: ${data.main.temp_max}&deg;F`;
-    sectionElement.style.border = "1px solid black";
+    sectionElement.innerHTML = ` Today's Max Temp: ${data.main.temp_max}&deg;F`;
+    sectionElement.style.border = "3px solid #a7c957";
     var clearButton = document.createElement("button");
     clearButton.textContent = "❌";
-    clearButton.classList.add("clearButton");
+    clearButton.classList.add("clear-button");
     clearButton.addEventListener("click", clearContent);
     sectionElement.appendChild(clearButton);
 }

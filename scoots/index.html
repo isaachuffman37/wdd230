@@ -12,13 +12,17 @@
 </head>
 <body>
     <header>
-        <h1>Scoots</h1>
+        <div>
+            <h1 class = "company-heading">~Scoots~</h1>
+        </div>
+        
         <nav>
-            <ul>
+            <ul class="nav-ul">
                 <li><a class = "page-link" href="index.html">Home</a></li>
                 <li><a class = "page-link" href="rentals.html">Rentals</a></li>
                 <li><a class = "page-link" href="reservation.html">Reservations</a></li>
                 <li><a class = "page-link" href="contact.html">Contact</a></li>
+                <li><a class = "page-link" href="sources.html">Sources</a></li>
             </ul>
         </nav>
     </header>
@@ -32,38 +36,38 @@
                   <img src="images/hero-img.webp" alt="Island Beauty" width="1500" height="1000" loading="lazy">
                 </picture>
                 <div class="cta">
-                  <p class = "dark-text">Rent our <a href="">vehicles</a>!</p>
+                  <p class = "dark-text">Rent our <a href="reservation.html">vehicles</a>!</p>
                 </div>
             </div>
         </section>
         <section class="rental-types">
-            <div class="scooter-summary">
+            <div class="summary">
                 <h2>Scooters</h2>
                 <img src="images/scooter.webp" alt="Scooters">
                 <p>Our high quality scooters are made for the terrain of mexico. They offer enoough power, range, and durability to last as long as you need them too for your adventure. Although they are mostly for the paved roads, these scooters are specially designed for any bumpy or rough conditions you may face on the roads. This makes for a great experience when exploring Cozumel!</p>
             </div>
-            <div class="atv-summary">
+            <div class="summary">
                 <h2>ATVs</h2>
                 <img src="images/atv.webp" alt="ATV">
                 <p>These ATVs are built for fun! With the high-powered engine and offroad tires, there is nothing that can get in the way of your adventure. Take one of these babies out on the jungle roads and you will never want to turn back!</p>
             </div>
-            <div class="jeep-summary">
+            <div class="summary">
                 <h2>Jeeps</h2>
                 <img src="images/jeep.webp" alt="Jeeps">
                 <p>Packed with even more horsepower than the ATVs and more comfort than your mother's basement, these Jeep Wranglers can provide speed, agility, and a little bit of A/C to your trip. Rent one of these bad boys if you are looking to have a good time in any condition and in any location on Cozumel. </p>
             </div>
         </section>
-        <section calss ="weather">
-            <div class="current-weather">
-                <h3>Today:</h3>
+        <section class ="weather">
+            <div class="weather-div">
+                <h3>Current</h3>
                 <figure>
                     <div class = "main-icon-div"></div>
                     <p><span class="current-temp"></span></p>
                     <figcaption></figcaption>
                 </figure>
             </div>
-            <div class="forecast-weather">
-                <h3>Tomorrow:</h3>
+            <div class="weather-div">
+                <h3>Tomorrow at 3pm</h3>
                 <figure>
                     <div class = "forecast-icon"></div>
                     <p><span class="forecast-temp"></span></p>
@@ -71,9 +75,10 @@
                 </figure>
             </div>
         </section>
-
-        <div class="social-media">
-            <h2>Our Media</h2>
+    </main>
+    <footer class="social-media">
+        <h2>Contact Us</h2>
+        <div class="media-container">
           <div>
             <h3>Facebook</h3>
             <p><a href="#">scoot.cozumel99@facebook.com</a></p>
@@ -82,13 +87,15 @@
             <h3>Instagram</h3>
             <p><a href="#">@scoot.cozumel99</a></p>
           </div> 
-
+          <div>
+            <h3>Email</h3>
+            <p>scoots.cozumel99@example.com</p>
+          </div> 
+          <div>
+            <h3>Phone</h3>
+            <p>(555)-555-1823</p>
+          </div> 
         </div>
-
-
-    </main>
-    <footer>
-
     </footer>
     <script src="scripts/weather.js"></script>
 </body>
