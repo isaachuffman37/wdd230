@@ -16,7 +16,6 @@ async function apiFetch() {
         const response = await fetch(url);
         if (response.ok) {
             const data = await response.json();
-            console.log(data)
             displayResults(data);
             displayMaxTemp(data);
         } else {
@@ -26,7 +25,6 @@ async function apiFetch() {
         if (response2.ok) {
             const data2 = await response2.json();
             displayForcast(data2.list);
-            console.log(data2.list)
         } else {
             throw Error(await response2.text());
         }
